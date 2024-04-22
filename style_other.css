@@ -152,7 +152,7 @@ form .textarea-field .item {
     height: 250px;
 }
 
-.button {
+button {
     background: var(--red);
     padding: 16px 90px;
     color: white;
@@ -165,7 +165,7 @@ form .textarea-field .item {
     cursor: pointer;  
 }
 
-.button:hover {
+button:hover {
     background: red;
 }
 
