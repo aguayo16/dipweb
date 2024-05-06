@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_other.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="black-header">
+        <div class="wrapper">
+            <nav>
+                <div class="logo">DIP WEB SOLUTIONS</div>
+                <ul>
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="about.html">SOBRE NOSTROS</a>
+                    </li>
+                    <li>
+                        <a href="services.html">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACTENOS</a>
+                    </li>
+                    <li>
+                        <a class="trans" href="contact2.html">ENGLISH</a>
+                    </li>
+                </ul>
+            </nav>
+
+             <!--MOBILE NAVBAR-->
+             <nav class="mobile-nav">
+                <div class="logo">DIP WEB SOLUTIONS</div>
+                <div class="menu-icon">
+                    <img src="images/menu.svg">
+                </div>
+            </nav>
+
+            <div class="mobile-menu-container">
+                <div class="close-icon">
+                    <img src="images/close.svg" alt="">
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="about.html">SOBRE NOSTROS</a>
+                    </li>
+                    <li>
+                        <a href="services.html">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACTENOS</a>
+                    </li>
+                    <li>
+                        <a class="trans" href="index2.html">ENGLISH</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="title_section">
+                <h1>CONTACTENOS</h1>
+                <div class="horizontal-red contactenos"></div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER ENDS-->
+
+    <section class="contact">
+        <div class="wrapper">
+            <div class="form-header">
+                <h2>
+                    INTERESADO?
+                </h2>
+                <p>
+                    Llene el formulario
+                </p>
+            </div>
+
+            <form action="" name="contact-form" method="POST">
+
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" name="name" placeholder="Nombre" id="name" class="item"
+                        autocomplete="off">
+                        <div class="error-txt">Nombre no puede estar vacio</div>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" name="email" placeholder="Correo" id="email" class="item"
+                        autocomplete="off">
+                        <div class="error-txt">Correo no puede estar vacio</div>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" name="phone" placeholder="Telf." id="phone" class="item"
+                        autocomplete="off">
+                        <div class="error-txt">Telf. no puede estar vacio</div>
+                    </div>
+                    <div class="input-field field">
+                        <input type="text" name="subject" placeholder="Referencia" id="subject" class="item"
+                        autocomplete="off">
+                        <div class="error-txt">Tema no puede estar vacio</div>
+                    </div>
+                </div>
+
+                <div class="textarea-field field">
+                    <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Mensaje" class="item" autocomplete="off"></textarea>
+                    <div class="error-txt">Mensaje no puede estar vacio</div>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <div class="footer footer-contact">
+        <div class="wrapper">
+            <div class="bottom-container">
+                <h3>INTERESADO EN <br> NUESTRO SERVICIO?</h3>
+
+                <div class="bottom"> 
+                    <div  class="email-container">
+                        <img src="images/packet.svg" alt="email">
+                        <a href="mailto:dipwebsolutions@gmail.com" class="email-icon">dipwebsolutions@gmail.com</a>
+                    </div>
+                    <div class="creds">
+                        <p>Terminos & Condiciones</p>
+                        <p>Polica de Privacidad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="mobile.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
