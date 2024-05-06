@@ -196,3 +196,89 @@ button:hover {
 form .textarea-field .error-txt {
     margin-top: -10px;
 }
+
+.servicios-en {
+    width: 340px
+}
+
+.sobre-en{
+    width: 310px;
+}
+
+.contactenos-en {
+    width: 300px;
+}
+
+@media (max-width: 1050px) {
+    .left {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .contact form{
+        width: 500px;
+        text-align: center;
+    }
+}
+
+@media (max-width:700px) {
+    .left h3{
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .left p {
+        font-size: 16px;
+        font-weight:lighter;
+        padding-bottom: 0;
+    }
+
+    .intro-section {
+        padding-bottom: 100px;
+    }
+    .first, .second, .third {
+        gap: 50px
+    }
+
+    .horizontal-red {
+        width: 270px;
+    }
+
+    .servicios {
+        width: 360px;
+    }
+    .contactenos {
+        width: 240px;
+    }
+
+    .contact form{
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicios-en {
+        width: 230px
+    }
+
+    .sobre-en{
+        width: 210px;
+    }
+
+    .contactenos-en {
+        width: 200px;
+    }
+}
+
+@media (max-width:425px) {
+    .servicios {
+        width: 170px;
+    }
+
+    .form-header h2 {
+        font-size: 35px;
+    }
+
+
+}
